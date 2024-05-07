@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.main-header {
+padding-top: 10px;
+  background-color: #ffffff; 
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ border-top-left-radius:20px ;
+ border-top-right-radius:20px ;
+ margin-left: 5px !important;
+ margin-right: 5px !important;
+}
+
+
+.doller-image-size {
+  height: 30px;
+  width: 30px;
+}
+
+.coin-col p {
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.buy-doller-color {
+  border-radius: 8px;
+  background-image: linear-gradient(0deg, #1d71f1 0%, #17c7fb 100%);
+}
+
+.sell-doller-color {
+  border-radius: 8px;
+  background-image: linear-gradient(0deg, #fa23a2 0%, #ff677c 100%);
+}

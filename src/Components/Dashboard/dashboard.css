@@ -1,0 +1,190 @@
+ 
+.main-graph-dashboard{
+     margin-bottom: 20px !important;
+     padding-bottom: 0px;
+    background-color: #f3f6f9;
+    border-radius: 12px;
+    
+    filter: drop-shadow(0px 59px 55.5px rgba(154, 155, 176, 0.17));
+
+}
+
+.coin-col {
+    border-radius: 8px;
+    filter: drop-shadow(0px 59px 55.5px rgba(154, 155, 176, 0.17));
+    background-color: #ffffff;
+
+}
+
+.main-bitcoin-row {
+    margin: 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    filter: drop-shadow(0px 59px 55.5px rgba(154, 155, 176, 0.17));
+    background-color: #ffffff;
+
+}
+
+.btc-col-value {
+    font-size: 19px;
+    color: #4c5968;
+    font-weight: bold; 
+}
+
+.bitcoin-doller-color {
+
+    border-radius: 80px;
+    background-image: linear-gradient(0deg, #ff8f17 0%, #ffc743 100%);
+}
+
+.main-usd-col {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #aeb8c4;
+
+}
+
+.main-usd-col-per p {
+    float: right;
+    border-radius: 51px;
+    background-color: #ee225d;
+    font-size: 12px;
+    color: #ffffff;
+    height: 24px;
+    display: grid;
+    align-items: center; 
+    padding: 0px 10px 0px 10px;
+
+
+}
+
+.down-btn {
+    text-align: center;
+    height: 20px;
+}
+.roatetBtnFalse { 
+    transform: rotate(180deg);
+    transition: 1000ms;
+}
+.roatetBtnTrue{
+    transform: rotate(0deg);
+    transition: 1000ms; 
+}
+.main-graph-rotateStatusFalse{
+    transition: opacity 1s ease; 
+    opacity: 0;
+     
+}
+.main-graph-rotateStatusTrue{
+    transition: opacity 1s ease; 
+    opacity: 1;
+     
+}
+
+
+.bitcoin-text {
+    font-size: 11px;
+    margin-top: 17px;
+
+}
+
+.main-bitcoin-col {
+    display: grid;
+    align-items: center;
+
+}
+
+.btc-col {
+    margin-top: 17px;
+    display: grid;
+    align-items: center;
+    font-size: 12px;
+    color: #aeb8c4;
+
+}
+/* .buy-smoothTrue{
+    transform: rotate(0deg);
+    transition: 500ms; 
+
+}
+.buy-smoothFalse{
+    transform: rotate(360deg);
+    transition: 1000ms; 
+
+} */
+
+
+
+.date-col {
+    color: #aeb8c4; 
+    font-size: 13px;
+    padding-top: 2px;
+    
+    
+     
+    text-align: center;
+}
+
+.date-col-active p {
+    padding-top: 2px;
+    font-size: 13px;
+    color: #ffffff;
+    border-radius: 51px;
+    background-color: #aeb8c4;
+    text-align: center;
+}
+
+.main-value-cls{
+    display: grid;
+    align-items: center;
+
+}
+
+.lower-red .first {
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+    background-color: #ef2755;
+    border-radius: 50%;
+    font-size: 15px;
+
+
+}
+.main-graph-col{
+    height: 120px;
+}
+
+ .higher-green .first{
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+    background-color: #1ec070;
+    border-radius: 50%;
+
+}
+
+.lower-red .second,.higher-green .second {
+
+    color: #9a9bb0; 
+    font-size: 12px; 
+
+}
+
+.recharts-default-tooltip{
+    background-color: transparent !important;
+    border: transparent !important;
+    display: flex;
+    font-size: 12px; 
+    align-items: center;
+    position: absolute;
+    top:78px;
+    left:20px
+
+}
+.recharts-tooltip-item-list li span{
+    color: black !important;
+}
+
+.recharts-wrapper{
+    position: relative;
+}
